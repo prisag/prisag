@@ -22,6 +22,15 @@ body {
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
+.container_p {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 682px;
+	background-color: #000;
+	margin-top: 0px;
+}
+
 /* Navigation */
 header {
 	width: 100%;
@@ -95,6 +104,16 @@ ul li:hover a {
 	background-attachment:fixed;
 
 }
+.hero_p {
+	
+	background-image: url(../images/background_p.jpg);
+	height:100%;
+	display:block;
+	width:100%;
+	background-attachment:fixed;
+	opacity:0.5;
+
+}
 .light {
 	font-weight: bolder;
 	color: rgba(108, 55, 121, 0.82);
@@ -109,6 +128,26 @@ ul li:hover a {
 	letter-spacing: 1px;
 	font-size: 18px;
 	position:relative;
+}
+.sagar_p{
+	width: 100%;
+	height:auto;
+}
+.sagar_p img{
+	position: absolute;
+    
+    left: 50%;
+    margin-left: -150px;
+    
+    max-width: 300px;
+	max-height: 300px;
+	border-radius:50%;
+	margin-top:-10em;
+	border:10px solid #fff;
+}
+.about_p{
+	height:400px;
+	background-color:#fff;
 }
 /* About Section */
 
