@@ -26,7 +26,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 682px;
+	height: 450px;
 	background-color: #000;
 	margin-top: 0px;
 }
@@ -94,6 +94,19 @@ ul li:hover a {
 	padding-bottom:266px;
 	background-color:rgba(0, 0, 0, 0.37);
 }
+.hero_header_p {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-size: 70px;
+	padding-top:140px;
+	padding-bottom:238px;
+	background-color:rgba(0, 0, 0, 0.56);
+}
 /* Hero Section */
 .hero {
 	
@@ -146,7 +159,7 @@ ul li:hover a {
 	border:10px solid #fff;
 }
 .about_p{
-	height:400px;
+	height:355px;
 	background-color:#fff;
 }
 /* About Section */
@@ -568,7 +581,45 @@ nav ul li {
 }
 }
 
+.resume{
+	padding-top:220px;
+	width:100%;
+	
+	display:flex;
+	justify-content:center;
+}
 
+.button_p {
+	width: 300px;
+	padding-top:14px;
+	padding-bottom: 14px;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border: 1.6px solid #080808;
+	color: #FFFFFF;
+	transition: all 0.6s cubic-bezier(0.4, 0, 1, 1);
+	margin-left:20px;
+
+}
+.button_p a {
+	text-decoration:none;
+	display:block;
+	color:#000;
+	font-size:25px;
+	font-weight:light;
+}
+.button_p:hover {
+	color: rgba(108, 55, 121, 0.82);
+	cursor: pointer;
+	border:1.6px solid rgba(108, 55, 121, 0.82);
+}
+
+.button_p a:hover{
+	color:rgba(108, 55, 121, 0.82);
+}
 
 
 
