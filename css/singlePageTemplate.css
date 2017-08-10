@@ -26,9 +26,13 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 450px;
+	height: 400px;
 	background-color: #000;
+	font-family: 'Inconsolata', monospace;
 	margin-top: 0px;
+	background-image: url(../images/background_p.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 }
 
 /* Navigation */
@@ -94,18 +98,17 @@ ul li:hover a {
 	padding-bottom:266px;
 	background-color:rgba(0, 0, 0, 0.37);
 }
-.hero_header_p {
-	color: #FFFFFF;
+.hero_name {
+	color: #000;
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	letter-spacing: 4px;
-	font-size: 70px;
-	padding-top:140px;
-	padding-bottom:238px;
-	background-color:rgba(0, 0, 0, 0.56);
+	letter-spacing: 2px;
+	font-size: 60px;
+	margin-bottom:-3em;
+	padding-top:170px;
 }
 /* Hero Section */
 .hero {
@@ -119,11 +122,10 @@ ul li:hover a {
 }
 .hero_p {
 	
-	background-image: url(../images/background_p.jpg);
+	background-color:#000;
 	height:100%;
 	display:block;
 	width:100%;
-	background-attachment:fixed;
 	opacity:0.5;
 
 }
@@ -195,12 +197,17 @@ ul li:hover a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+#code2{
+	background-color: #2D9AB7;
+	background-image: url(../images/parallax1.jpg);
+		background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 /* Parallax Section */
 .banner {
 	
 	height: 400px;
-
 	padding-bottom:50px;
 }
 .parallax {
@@ -240,6 +247,19 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.parallax_para {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
 /*contact*/
 #contact{
 	padding-left: 25px;
@@ -258,10 +278,13 @@ ul li:hover a {
 	padding-bottom:40px;
 	padding-top:35px;
 }
-form{
+.myform{
 	text-align:center;
 }
-form input{
+.myform2{
+	text-align:center;
+}
+.myform input{
 	width:650px;
 	height:30px;
 	background-color:rgba(253, 253, 253, 0);
@@ -275,17 +298,46 @@ form input{
 	margin-left:-4em;
 
 }
-form input:focus{
+.myform button{
+	color:#000;
+}
+.myform input:focus{
 	background-color: #FEFEFE;
 	color: rgba(0, 0, 0, 0.74);
 	cursor: pointer;
 }
-form input:hover
+.myform input:hover
 {
 	border:3px solid rgba(165, 135, 173, 0.75)
 }
+.myform2 input{
+	width:80%;
+	height:30px;
+	background-color:rgba(253, 253, 253, 1);
+	border-radius:0px;
+	margin-bottom:10px;
+	border:3px solid #fff;
+	padding-left:10px;
+	font-weight:bold;
+	color:#31708f;
+	transition: all 0.3s linear;
+
+}
+
+.myform2 input:focus{
+	background-color: #FEFEFE;
+	color: rgba(0, 0, 0, 0.74);
+	cursor: pointer;
+}
+.myform2 input:hover
+{
+	border:3px solid #286090;
+	color:#286090;
+	font-weight:inherit;
+}
 #message{
 	padding-bottom:40px;
+	padding-top:10px;
 }
 
 /* More info */
@@ -350,10 +402,10 @@ footer .footer_column p {
 }
 
 .button {
-	width: 150px;
+	max-width: 150px;
 	padding-top:20px;
 	margin-top: 40px;
-	padding-bottom: 30px;
+	padding-bottom: 35px;
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
@@ -433,7 +485,10 @@ footer {
 	line-height: 22px;
 	text-align: center;
 }
-form input{
+.myform input{
+	width:90%;
+}
+.myform2 input{
 	width:90%;
 }
 .cards{
@@ -509,6 +564,7 @@ form input{
 	width: 100%;
 	padding-top: 30px;
 }
+
 .banner {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -517,7 +573,10 @@ form input{
 	width: 100%;
 }
 
-form input{
+.myform input{
+	width:70%;
+}
+.myform2 input{
 	width:70%;
 }
 }
@@ -546,11 +605,14 @@ form input{
 	margin-top: 0px;
 	padding-top: 0px;
 }
+.parallax_para{
+	width:50%;
 }
+}
+
 @media (max-width:630px)
 {
 	
-
 .container header nav {
 	margin-top: -1em;
 	margin-right: 0px;
@@ -601,7 +663,7 @@ nav ul li {
 	border: 1.6px solid #080808;
 	color: #FFFFFF;
 	transition: all 0.6s cubic-bezier(0.4, 0, 1, 1);
-	margin-left:20px;
+	margin-left:0px;
 
 }
 .button_p a {
@@ -609,7 +671,7 @@ nav ul li {
 	display:block;
 	color:#000;
 	font-size:25px;
-	font-weight:light;
+	font-weight:lighter;
 }
 .button_p:hover {
 	color: rgba(108, 55, 121, 0.82);
@@ -619,10 +681,186 @@ nav ul li {
 
 .button_p a:hover{
 	color:rgba(108, 55, 121, 0.82);
+	text-decoration:none;
+}
+.skills{
+	width:100%;
+	margin-top:-20px;
+	height:400px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:rgba(218, 199, 245, 0.55);
+}
+.skills_wrapper{
+	background-image:url(../images/c_skills.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.skills_wrapper h2{
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left:30px;
 }
 
+.skills_icon{
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+}
 
+.thumbnail_img{
+	max-width:120px;
+	max-height:120px;
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	margin-right:0px;
+	margin-left:0px;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.c_about{
+	height:400px;
+	width:100%;
+	background-image:url(../images/c_about.jpg);
+	padding-right:20px;
+	padding-left:20px;
+	background-size:100% 400px;
+}
+.c_aboutpara{
+	width:60%;
+	line-height:22px;
+}
+.carousel-inner h2{
+	color:rgb(255, 255, 255);
+	font-weight:900;
+	padding-top:20px;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+.carousel-inner p{
+	color:rgb(255, 255, 255);
+	padding-left:10px;
+}
 
+.c_education{
+	height:400px;
+	width:100%;
+	background-image:url(../images/parallax.png);
+	padding-right:20px;
+	padding-left:20px;
+}
+.c_education h2 {
+	color:#245682;
+}
+.c_education h3 a{
+	text-decoration:none;
+}
+.panel-group a{
+	display:block;
+	color:#fff;
+}
 
+.quick{
+	width:100%;
+}
 
+.quickcontact{
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+	background-color:rgba(216, 140, 140, 0.98);
+	height:400px;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10;
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom:-8px;
+}
+.quickid{
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+	background-color:#286090;
+	height:400px;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10;
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom:-8px;
+}
+.idul{
+	padding-top:10px;
+	padding-left:30px;
+}
+.idli{
+	padding-bottom:15px;
+	text-decoration:none;
+	display:block;
+	font-size:18px;
+	font-weight:100;
+	color:#d98e8e
 
+}
+.idli:hover{
+	background-color:rgba(0,0,0,0);
+}
+#mycarousel{
+	background-color:rgba(0,0,0,0);
+}
+@media (max-width:767px){
+	.quick{
+		text-align:center;
+	}
+	.quick h2{
+		text-align:center;
+		padding-top:25px;
+		padding-bottom:10px;
+		color:white
+	}
+	.quickcontact{
+		text-align:center;
+	}
+	
+	.quickid{
+		text-align:center;
+	}
+	.parallax_para{
+		text-align:center;
+		width:80%;
+		line-height:18px;
+	}
+}
+@media (min-width:768px){
+	.panel-heading{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.quick h2{
+	font-weight:900;
+	color:#fff;
+	padding-left:30px;
+	padding-bottom:30px;
+}
+	.quickcontact{
+	width:50%;
+}
+
+.quickid{
+	width:50%;
+	float:left;
+}
+.skills_icon{
+	padding-right:70px;
+	padding-left:70px;
+}
+}
+@media (min-width:1200px){
+	.skills_icon{
+		padding-top:45px;
+	}
+}
