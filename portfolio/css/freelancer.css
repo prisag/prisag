@@ -137,7 +137,22 @@ header.masthead {
   header.masthead h2 {
     font-size: 1.3rem;
     font-family: 'Lato'; }
+   header{
+    height:540px;
+  }
+  .img-main{
+    left:calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    border:10px solid #abcdef;
+    z-index:2;
+    margin-top:40px;
 
+  }
+  #about{
+    padding-top:200px;
+  }
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
