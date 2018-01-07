@@ -288,7 +288,13 @@ header.masthead {
 
 
 }
-
+#education a {
+  color:black;
+}
+#education a:hover {
+  color:grey;
+  text-decoration:none;
+}
 .portfolio {
   margin-bottom: -15px; }
   .portfolio .portfolio-item {
