@@ -153,7 +153,7 @@ header.masthead {
   }
 
   .pagecurl{
-    width:100px;
+    width:80px;
     position:absolute;
     bottom:-4px;
     right:0px;
@@ -271,7 +271,7 @@ header.masthead {
     width: 300px;
     height: 300px;
     border-radius:50%;
-    border:0px solid #2C3E50;
+    border-bottom:6px solid #bae;
     z-index:2;
     margin-top:50px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
