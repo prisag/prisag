@@ -40,7 +40,7 @@ header {
 	width: 100%;
 	background-color:rgba(0,0,0,0.00);
 	position:absolute;
-	
+
 }
 nav {
 	float: right;
@@ -69,7 +69,7 @@ nav ul li {
 	padding-top:6px;
 	padding-left:12px;
 	padding-bottom:6px
-	
+
 }
 ul li:hover{
 	background-color: #FEFEFE;
@@ -112,16 +112,17 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	
+
 	background-image: url(../images/background.jpg);
-	height:100%;
+	height:-webkit-fill-available;
+	background-size:contain;
 	display:block;
 	width:100%;
 	background-attachment:fixed;
 
 }
 .hero_p {
-	
+
 	background-color:#000;
 	height:100%;
 	display:block;
@@ -150,10 +151,10 @@ ul li:hover a {
 }
 .sagar_p img{
 	position: absolute;
-    
+
     left: 50%;
     margin-left: -150px;
-    
+
     max-width: 300px;
 	max-height: 300px;
 	border-radius:50%;
@@ -206,7 +207,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	
+
 	height: 400px;
 	padding-bottom:50px;
 }
@@ -262,8 +263,6 @@ ul li:hover a {
 }
 /*contact*/
 #contact{
-	padding-left: 25px;
-	padding-right: 25px;
 	padding-top: 35px;
 	display: inline-block;
 	background-color: #c4c4c4;
@@ -346,30 +345,36 @@ footer {
 	width:100%;
 	padding-top:60px;
 	padding-bottom:80px;
+	text-decoration:none;
 }
 .footer_column {
 	width: 50%;
 	text-align: center;
 	padding-top: 30px;
 	float: left;
+
 }
 footer .footer_column h3 {
 	color: rgba(255, 255, 255, 0.9);;
 	text-align: center;
-	
-}
 
+}
+article a{
+	text-decoration:none;
+}
 .cards {
 	width: 100%;
 	height: auto;
 	max-width: 300px;
 	max-height: 300px;
-	opacity:0.6;
+	opacity:0.9;
 	border-radius:50%;
+	filter: grayscale(0.8);
 }
-#sagar{
-	opacity:0.4;
+.cards:hover{
+	filter: grayscale(0.6);
 }
+
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -395,7 +400,7 @@ footer .footer_column p {
 	margin-top:-0.2em;
 }
 .copyright img {
-	
+
 	padding-top:20px;
 	padding-left:10px;
 	padding-right:10px;
@@ -492,7 +497,7 @@ footer {
 	width:90%;
 }
 .cards{
-	
+
 	max-width: 240px;
 	max-height: 240px;
 }
@@ -612,7 +617,7 @@ footer {
 
 @media (max-width:630px)
 {
-	
+
 .container header nav {
 	margin-top: -1em;
 	margin-right: 0px;
@@ -646,7 +651,7 @@ nav ul li {
 .resume{
 	padding-top:220px;
 	width:100%;
-	
+
 	display:flex;
 	justify-content:center;
 }
@@ -719,7 +724,7 @@ nav ul li {
 	margin-left:0px;
 	margin-top:10px;
 	margin-bottom:10px;
-	
+
 }
 .c_about{
 	height:400px;
@@ -825,7 +830,7 @@ nav ul li {
 	.quickcontact{
 		text-align:center;
 	}
-	
+
 	.quickid{
 		text-align:center;
 	}
