@@ -44,10 +44,10 @@ hr.star-light:after {
   background-color: #bae; }
 
 hr.star-dark {
-  border-color: #2C3E50; }
+  border-color: #bae; }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #2c3e50;
   background-color: white; }
 
 section {
@@ -85,23 +85,25 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color:rgba(26, 37, 47, 0);
   font-weight: 700;
   font-family: 'Montserrat'; }
   #mainNav .navbar-brand {
-    color: #fff; }
+    color: #22262a; }
   #mainNav .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #fff; }
+      color: #22262a; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #bae; }
+        color: #1a262f;
+        background-color:#bae; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-        color: #fff; }
+        color: #bae; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
         color: #bae; }
   #mainNav .navbar-toggler {
-    font-size: 80%;
+    font-size: 100%;
     padding: 0.8rem; }
 
 @media (min-width: 992px) {
@@ -119,14 +121,17 @@ section {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
-      background: #bae; }
+      color: #22262a;
+      background: rgba(0, 0, 0, 0);
+      border-radius:0;
+      border:2.5px solid #bae; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #fff;
+        color: #1a262f;
         background: #bae; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.5rem;
+    background-color: rgba(26, 37, 47, 0.39); }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
@@ -149,7 +154,7 @@ header.masthead {
   }
 
   .pagecurl{
-    width:100px;
+    width:80px;
     position:absolute;
     bottom:-4px;
     right:0px;
@@ -267,7 +272,7 @@ header.masthead {
     width: 300px;
     height: 300px;
     border-radius:50%;
-    border:0px solid #2C3E50;
+    border-bottom:6px solid #bae;
     z-index:2;
     margin-top:50px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
