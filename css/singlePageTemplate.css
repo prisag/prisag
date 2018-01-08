@@ -18,7 +18,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 682px;
+	height: -webkit-fill-available;
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
@@ -96,7 +96,8 @@ ul li:hover a {
 	font-size: 70px;
 	padding-top:345px;
 	padding-bottom:266px;
-	background-color:rgba(0, 0, 0, 0.37);
+	background-color:rgba(0, 0, 0, 0.45);
+	height:-webkit-fill-available;
 }
 .hero_name {
 	color: #000;
@@ -113,8 +114,8 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 
-	background-image: url(../images/backgroung1.jpeg);
-	height:100%;
+	background-image: url(../images/background.jpg);
+	height:-webkit-fill-available;
 	background-size:cover;
 	display:block;
 	width:100%;
@@ -132,13 +133,13 @@ ul li:hover a {
 }
 .light {
 	font-weight: bolder;
-	color: rgba(108, 55, 121, 0.82);
+	color: rgb(134, 86, 162);
 	font-size: 70px;
 }
 .tagline {
 	text-align: center;
 	color: #FFFFFF;
-	margin-top: -14em;
+	margin-top:2em;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -263,11 +264,11 @@ ul li:hover a {
 }
 /*contact*/
 #contact{
-	padding-top: 35px;
+	padding-top: 30px;
 	display: inline-block;
-	background-color: #c4c4c4;
+	background:linear-gradient(180deg,#f1f1f1,#513861);
 	margin-top: 0px;
-	padding-bottom:120px;
+	padding-bottom:50px;
 	width:100%;
 }
 #contact h2{
@@ -275,7 +276,7 @@ ul li:hover a {
 	color:rgba(108, 55, 121, 0.62);
 	font-size:50px;
 	padding-bottom:40px;
-	padding-top:35px;
+	padding-top:0px;
 }
 .myform{
 	text-align:center;
@@ -289,20 +290,26 @@ ul li:hover a {
 	background-color:rgba(253, 253, 253, 0);
 	border-radius:0px;
 	margin-bottom:10px;
-	border:3px solid #fff;
+	border:2px solid #fff;
 	padding-left:10px;
 	font-weight:bold;
 	color:#fff;
 	transition: all 0.3s linear;
 	margin-left:-4em;
-
 }
+.myform ::placeholder{
+	color:#fff;
+	letter-spacing:0.5px;
+	font-size:12px;
+}
+
 .myform button{
 	color:#000;
 }
 .myform input:focus{
-	background-color: #FEFEFE;
-	color: rgba(0, 0, 0, 0.74);
+	background: rgba(108, 55, 121, 0.2);
+	color: #fff;
+	letter-spacing:0.4px;
 	cursor: pointer;
 }
 .myform input:hover
