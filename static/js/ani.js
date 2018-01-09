@@ -1,4 +1,4 @@
-var words = ["LOADING", "PRIYANK", "SAGAR", "DEVELOPERS", "DESIGNERS", "PRISAG", "WEBSITE", "WE ROCK", "LOADING", "LOADING", "LOADING", "LOADING", "LOADING"];
+var words = ["LOADING", "PRIYANK", "SAGAR", "PROGRAMMERS", "PRISAG", "VNIT", "WE ROCK", "PRISAG", "PRIYANK", "SAGAR", "LOADING", "LOADING"];
 
 window.addEventListener("load", function() {
 		var randoms = window.document.getElementsByClassName("randoms");
