@@ -148,7 +148,7 @@ header.masthead {
   @media (min-width:480px) {
   header{
     height:600px;
-    border-radius:0 0 110px 0;
+    border-radius:0 0 90px 0;
     box-shadow: -40px 5px 50px rgba(0, 0, 0, .8);
     background: linear-gradient(135deg,#fff,#bae,#bae,#bae,#bae,#fff);
   }
@@ -181,7 +181,7 @@ header.masthead {
   }
   header{
     height:600px;
-    border-radius:0 0 10px 0;
+    border-radius:0 0 20px 0;
     box-shadow: -15px 5px 20px rgba(0, 0, 0, .5);
     background: linear-gradient(135deg,#fff,#bae,#bae,#bae,#bae,#fff);
   }
@@ -272,7 +272,7 @@ header.masthead {
     width: 300px;
     height: 300px;
     border-radius:50%;
-    border-bottom:6px solid #bae;
+    border-bottom:0px solid #bae;
     z-index:2;
     margin-top:50px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
