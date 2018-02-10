@@ -18,10 +18,6 @@ Prisag uses a number of open source projects to work properly:
 * [node.js] - evented I/O for the backend
 * [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-
 
 **Happy Coding!**
 
