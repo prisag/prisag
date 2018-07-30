@@ -1,28 +1,3 @@
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--    <head>-->
-<!--        <title>PriSag</title>-->
-<!--        <link href="static/css/ani.css" rel="stylesheet">-->
-<!--        <link rel="shortcut icon" type="image/x-icon" src="PriSag.png" />-->
-<!--        <meta http-equiv="refresh" content="5;url='sagar.html'" />-->
-<!--    </head>-->
-<!--    <body>-->
-<!--        <div class="container">-->
-<!--        	<div class="right">-->
-<!--        			<h4 class="randoms"></h4>-->
-<!--        			<h1 class="randoms"></h1>-->
-<!--        			<h4 class="randoms"></h4>-->
-<!--        	</div>-->
-<!--        	<div class="left">-->
-<!--        			<h4 class="randoms"></h4>-->
-<!--        			<h1 class="randoms"></h1>-->
-<!--        			<h4 class="randoms"></h4>-->
-<!--        	</div>-->
-<!--        </div>-->
-<!--    <script src="static/js/ani.js"></script>-->
-
-<!--    </body>-->
-<!--</html>-->
 <!DOCTYPE html>
 <html lang="en" class="gr__ide50-wizard-of-programming_cs50_io"><head>
 
@@ -115,7 +90,7 @@
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-dark" target='_blank' href="https://drive.google.com/open?id=1nHf0tIabJSwF5sj3i-E3yDiLnnYDZEtD">
+          <a class="btn btn-xl btn-outline-dark" target='_blank' href="https://drive.google.com/file/d/1p5DqqF-_ZQIuLJLp1iRUi7ysl_pKLj9U/view?usp=sharing">
             <i class="fa fa-download mr-2"></i>Download Resume
           </a>
         </div>
