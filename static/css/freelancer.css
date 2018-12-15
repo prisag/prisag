@@ -131,13 +131,13 @@ section {
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgba(26, 37, 47, 0.39); }
+    background-color: rgba(26, 37, 47, 0); }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem; }
+  padding-top: 15vh;
+   }
   header.masthead h1 {
     font-size: 3rem;
     line-height: 3rem; }
@@ -147,10 +147,11 @@ header.masthead {
 
   @media (min-width:480px) {
   header{
-    height:600px;
+    height:75vh;
     border-radius:0 0 90px 0;
-    box-shadow: -40px 5px 50px rgba(0, 0, 0, .8);
-    background: linear-gradient(135deg,#fff,#bae,#bae,#bae,#bae,#fff);
+    box-shadow: -40px 5px 50px rgba(101, 98, 98, 0.8);
+
+    background: linear-gradient(135deg,#fff,#ffffff,#fafafd,#f1f1f1,#e4e2e2,#c5c4c4);
   }
 
   .pagecurl{
@@ -180,10 +181,10 @@ header.masthead {
     right:0px;
   }
   header{
-    height:600px;
+    height:75vh;
     border-radius:0 0 20px 0;
     box-shadow: -15px 5px 20px rgba(0, 0, 0, .5);
-    background: linear-gradient(135deg,#fff,#bae,#bae,#bae,#bae,#fff);
+    background: linear-gradient(135deg,#fff,#ffffff,#fafafd,#f1f1f1,#e4e2e2,#c5c4c4);
   }
   .concurl {
     position:relative;
@@ -268,14 +269,15 @@ header.masthead {
 
 
   .img-main{
-    left:calc(50% - 150px);
-    width: 300px;
-    height: 300px;
-    border-radius:50%;
-    border-bottom:0px solid #bae;
-    z-index:2;
-    margin-top:50px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, .5);
+    left: calc(50% - 125px);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-bottom: 0px solid #bae;
+    z-index: 2;
+    position: absolute;
+    margin-top: -125px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .5)
   }
 
   #about{
@@ -283,7 +285,7 @@ header.masthead {
   }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: 12rem;
     padding-bottom: 6rem; }
     header.masthead h1 {
       font-size: 4.75em;
@@ -411,9 +413,12 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #bae; }
+  color: #1b1e21;
+    font-weight: 400; }
   a:focus, a:hover, a:active {
-    color: #bae; }
+    color: #1b1e21;
+    font-weight: 200;
+    }
 
 .btn {
   border-width: 2px;
@@ -426,11 +431,11 @@ a {
 }
 
 .bg-primary {
-  background: linear-gradient(135deg,#bac,#bae,#bae,#bae,#bae,#bac);
+  background: linear-gradient(135deg,#ddd,#fff,#fff,#fff,#fff,#ddd) !important;
 }
 
 .bg-primary2 {
-  background: linear-gradient(135deg,#ddd,#fff,#fff,#fff,#fff,#ddd);
+  background:#fff !important ;
 }
 
 .bg-secondary {

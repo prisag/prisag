@@ -32,221 +32,94 @@
   <body id="page-top" data-gr-c-s-loaded="true" style="">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top text-uppercase navbar-shrink" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sagar Bansal</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#education">Education</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger active" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!--<nav class="navbar navbar-expand-lg fixed-top text-uppercase navbar-shrink" id="mainNav">-->
+    <!--  <div class="container">-->
+
+    <!--    <button class="navbar-toggler navbar-toggler-left text-uppercase bg-primary-2 text-black collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
+
+    <!--      <i class="fa fa-bars"></i>-->
+    <!--    </button>-->
+    <!--    <div class="navbar-collapse collapse" id="navbarResponsive" style="">-->
+    <!--      <ul class="navbar-nav ml-auto">-->
+    <!--        <li class="nav-item mx-0 mx-lg-1">-->
+    <!--          <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#about">About</a>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item mx-0 mx-lg-1">-->
+    <!--          <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#portfolio">CV</a>-->
+    <!--        </li>-->
+    <!--      </ul>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</nav>-->
 
     <!-- Header -->
     <header class="masthead text-black text-center concurl curleffect">
 
         <div class="container">
           <h1 class="text-uppercase mb-0">Sagar Bansal</h1>
-          <hr class="star-light">
-          <h2 class="font-weight-light mb-0">Computer Programmer & Developer</h2>
+          <br><br>
+          <h2 class="font-weight-light mb-0">Computer Programmer & Machine Learning Enthusiast</h2>
+          <br><br>
+
+
           <!--<div class="curl"><div id="curlback"></div></div>-->
 
         </div>
         <img src="static/images/pagecurl.png" class="pagecurl"></img>
-        <img class="img-main" src="static/images/sagar.jpg" alt="">
+
 
     </header>
-
+<img class="img-main" src="static/images/sagar.jpg" alt="">
     <!-- About Section -->
-    <section class="bg-primary2 text-black mb-0" id="about">
+    <section class="bg-primary text-black mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-black">About</h2>
-        <hr class="star-dark mb-5">
+        <br>
+
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Hi there! I am <b>Sagar</b>. I am currently in my <b>Sophomore Year</b> at <strong>Visvesvaraya National Institute of Technology</strong> (VNIT Nagpur). I'm a Computer Programmer & Full Stack Developer.</p>
+            <p class="lead">Hi there! I am <b>Sagar</b>. I am currently in <b>Pre-final Year</b> at <strong>Visvesvaraya National Institute of Technology</strong> (VNIT Nagpur) and pursuing Bachelor of Technology in Metallurgical & Materials Engineering</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">My work domain is quite flexible, from back-end to front-end development. I like to work on all stages of development. Currently working as a Full Stack Web Developer at <a href="http://prisag.xyz" target="_blank">PriSag</a>.</p>
+            <p class="lead">My work domain is quite flexible, from back-end to front-end development. I am really paisonate about machine learnig and want to become a successful ML engineer.</p>
           </div>
         </div>
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-dark" target='_blank' href="https://drive.google.com/file/d/1p5DqqF-_ZQIuLJLp1iRUi7ysl_pKLj9U/view?usp=sharing">
-            <i class="fa fa-download mr-2"></i>Download Resume
+          <a class="btn btn-xl btn-outline-dark" target='_blank' href="https://docs.google.com/document/d/1hLjwQg7S_bVoaw-najjvBEitVnGnp9GUBY845UYElj8/edit?usp=sharing">
+            <i class="fa fa-download mr-2"></i>View Resume
           </a>
         </div>
-      </div>
-    </section>
+        <br><br><br>
 
-    <!-- Education Section -->
-    <section class="bg-primary text-white mb-0" id="education">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">Education</h2>
-        <hr class="star-light mb-5">
+
+        <h2 class="text-center text-uppercase text-black">Projects</h2>
+        <br>
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="text-center"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i></p>
-            <p class="lead">Currently pursuing Bachelor of Technology in Materials Engineering from <a href="http://vnit.ac.in" target="_blank">Visvesvaraya National Institute of Technology</a>. (NIT Nagpur)</p>
+            <p class="lead"><b>Digit Recognition</b><br>Goal is to correctly identify digits from a dataset of tens of thousands of handwritten images (MNIST Dataset) by using 2 hidden layer neural network which also includes writing all the algorithms from the scratch without using any framework or external library.<br>
+            <a href="https://github.com/sagban/digit-recognition">View</a>
+
+            </p>
+            <p class="lead"><b>Student Portal VNIT</b><br> A Django based web portal for the students of the VNIT (Visvesvaraya National Institute of
+            Technology, Nagpur) where they can share past interview experiences and can get the insight of college's
+            curricular and non- curricular activities.<br>
+            <a href="http://studentportal.vnit.ac.in">View</a>
+
+            </p>
+            <p class="lead"><b>Multi Barcode Reader</b><br>A barcode reader which detects and reads multi types Barcodes and Qr codes from the live
+streaming webcam, laptop cam, and mobile phones camera using  Zbar open source python library.
+<br>
+            <a href="https://github.com/sagban/Zbar-barcode-reader-python-javascript.git ">View</a>
+
+            </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="text-center"><i class="fa fa-pencil fa-3x" aria-hidden="true"></i></p>
-            <p class="lead">Completed High School graduation from <a href="http://agrapublicschool.com/" target="_blank">Centre Agra Public School</a>, Agra.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+            <p class="lead"><b>Startup Conclave</b><br> Designing and developing from the scratch a NodeJS - Express based web portal for young entrepreneurs participating in the Annual B-Plan competition organized by Pan NIT Alumni Forum (PNAF) with Entrepreneurship Cell Of VNIT Nagpur across all over India. Wherein participants can register their startup ideas, business models and compete with others.<br>
+            <a href="https://startupconclave.ecellvnit.org">View</a>
+            <p class="lead"><b>Auto Notice Bot</b><br> An automated bot that generates e-challan against the rule violator. It was a web application based on the Django Framework. This Project was selected for the GRAND FINALE of SMART INDIA HACKATHON 2018..<br>
+            <a href="https://github.com/sagban/autobot">View</a>
 
-    <!-- Skills Section -->
-    <section class="bg-primary2 text-dark mb-0" id="skills">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-black">Skills</h2>
-        <hr class="star-dark mb-5">
-        <div class="container-fluid">
-          <div class="row text-center">
-          <div class="col-xs- col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-cplusplus"></i><br><p>C++</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-c"></i><br><p>C</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-python"></i><br><p>Python</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-php"></i><br><p>PHP</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-java"></i><br><p>Java</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-mysql"></i><br><p>MySQL</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-jquery"></i><br><p>jQuery</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-bootstrap"></i><br><p>Bootstrap</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-html5"></i><br><p>HTML5</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-ubuntu"></i><br><p>Ubuntu</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-git"></i><br><p>Git</p></span>
-          </div>
-          <div class="col-xs-13 col-sm-4 col-md-3 col-lg-2">
-            <span style="font-size:80px;"><i class="bae icon-shell"></i><br><p>Shell</p></span>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid Section -->
-    <section class="bg-primary portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-black">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="static/images/portfolio/hackerrank.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-black">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="static/images/portfolio/studentportal.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-black">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="static/images/portfolio/pset8.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="bg-primary2">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-secondary btn-xl" id="sendMessageButton">Send</button>
-              </div>
-            </form>
+            </p>
           </div>
         </div>
       </div>
@@ -256,11 +129,8 @@
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">VNIT, Nagpur<br>MAH, 440010</p>
-          </div>
-          <div class="col-md-6 mb-5 mb-lg-0">
+
+          <div class="col-md-12 col-sm-offset-3">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
             <ul class="list-inline mb-0">
 
@@ -270,102 +140,37 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/tis_sagar">
-                  <i class="fa fa-fw fa-twitter"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/sagar-bansal-448097140/">
+                  <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/sagar-bansal-448097140/">
-                  <i class="fa fa-fw fa-linkedin"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/_sagban_">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.medium.com/@sagban/">
+                  <i class="fa fa-fw fa-medium"></i>
                 </a>
               </li>
 
             </ul>
           </div>
-          <div class="col-md-3">
-            <h4 class="text-uppercase mb-4">Designed by</h4>
-            <p class="lead mb-0"><a href="http://prisag.xyz" target="_blank">PriSag</a></p>
-          </div>
+
         </div>
       </div>
 
     </footer>
     <!-- Copyrights Section -->
-      <div class="copyright">2018 - <strong>PriSag<br>contact@prisag.xyz</strong></div>
+      <div class="copyright"><strong>sagarbansal099@gmail.com</strong></div>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-to-top d-lg-none position-fixed " style="display: block;">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <a class="js-scroll-trigger d-block text-center text-black rounded" href="#page-top">
         <i class="fa fa-chevron-up"></i>
       </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">HackerRank</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="static/images/portfolio/hackerrank.png" alt="">
-              <p class="mb-5"><a href='https://hackerrank.com/sagban'>Check Out!</a> My HackerRank account to see my programming journey and skills.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Student Portal | CLUB</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="static/images/portfolio/studentportal.png" alt="">
-              <p class="mb-5">The Django based web-app, designed specially for magnify the placements and club activities of the <a href="http://studentportal.vnit.ac.in">students</a> of vnit </p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">MashUp</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="static/images/portfolio/pset8.png" alt="">
-              <p class="mb-5">A problem set is to implement "mashup" that integrates Google Maps with Google News with a MySQL database containing thousands of postal codes, GPS coordinates, and more. Quite like this here version by the <a href='http://mashup.cs50.net/'>staff!</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -384,8 +189,5 @@
     <script src="static/js/freelancer.min.js"></script>
 
 
-
-
-<script id="wappalyzer" src="chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/inject.js"></script>
 </body>
 </html>
